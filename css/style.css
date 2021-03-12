@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: #6fd5d5;
+}
+.container {
+  width: 75%;
+  display: block;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+h1 {
+  text-align: center;
+}
+#formulario {
+  margin: 2% 0 2%;
+}
+textarea,
+input {
+  width: 100%;
+  padding: 0.8%;
+  font-family: sans-serif;
+  margin-bottom: 1%;
+}
+.btn-note {
+  background-color: #dc1919;
+  color: white;
+  padding: 1%;
+}
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.notes-box {
+  display: flex;
+  margin-top: 2%;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.notes-box > .box {
+  background-color: #fff;
+  width: 45%;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+.box > h4 {
+  padding-bottom: 2%;
+}
+.btn-delete {
+  padding: 1%;
+  border: 2px solid #e01e1e;
+  color: #e01e1e;
+  margin-top: 2%;
+}
