@@ -1,9 +1,11 @@
 //Setting variables
+"use strict";
 
 const inputTitle = document.querySelector(".title-form");
 const textarea = document.querySelector("textarea");
 const btnAdd = document.querySelector(".btn-note");
 const noteBox = document.querySelector(".notes-box");
+
 //Add Note function - Create the html box
 function addNote(noteTitle, noteText) {
   const item = `<div class="box">
